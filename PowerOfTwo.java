@@ -5,10 +5,12 @@ public class PowerOfTwo {
         Scanner scanner=new Scanner(System.in);
         System.out.println("Enter a number");
         int n = scanner.nextInt();
+        System.out.println(n & (n - 1));
 
         if (n > 0 && (n & (n - 1)) == 0)
             System.out.println("Power of Two");
         else
             System.out.println("Not a Power of Two");
     }
+   
 }
