@@ -17,3 +17,4 @@ public class Prime {
     }
     
 }
+// Testing GitHub push from VS Code
