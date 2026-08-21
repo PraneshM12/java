@@ -33,5 +33,6 @@ public class GroupAnagrams {
         List<List<String>> result = groupAnagrams(strs);
 
         System.out.println(result);
+        
     }
 }
